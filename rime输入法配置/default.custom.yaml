@@ -1,0 +1,18 @@
+__patch:
+  - "patch/+": {installed_from: "rime-cantonese"}
+  - "patch/+": {"schema_list/+/+": [{schema: jyut6ping3}]}
+customization:
+  distribution_code_name: Weasel
+  distribution_version: 0.14.3
+  generator: "Rime::SwitcherSettings"
+  modified_time: "Sat Feb 18 23:47:22 2023"
+  rime_version: 1.5.3
+patch:
+  key_binder:
+    bindings: [{accept: "Control+j", send: Up, when: composing}, {accept: "Control+h", send: Down, when: composing}, {accept: "Control+l", send: Page_Down, when: composing}, {accept: "Control+k", send: Page_Up, when: composing}, {accept: "Control+y", send: BackSpace, when: composing}, {accept: "Control+u", send: Return, when: composing}, {accept: "Control+i", send: Escape, when: composing}]
+  schema_list:
+    - {schema: bopomofo_tw}
+    - {schema: jyut6ping3}
+    - {schema: double_pinyin_flypy}
+  "menu/page_size": 9
+
