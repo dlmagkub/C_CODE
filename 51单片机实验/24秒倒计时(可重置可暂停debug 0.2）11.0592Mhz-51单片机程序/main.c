@@ -62,7 +62,7 @@ void main()
 	Nixie(8,Sec);
 		switch(Key())
 		{
-			case 1 :	EA0=~(EA0);
+			case 1 :	EA=~(EA);
 						break;
 			case 2 :	Sec=0;
 						Min=0;
